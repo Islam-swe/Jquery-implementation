@@ -1,0 +1,119 @@
+.side-bar{
+    width: 20%;
+    height: 100vh;
+    background-color: tomato;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+ 
+.menu{
+    width: 20%;
+    background-color:#414658;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999999;
+    padding: 50px 0px;
+    color: white;
+    left: -269;
+}
+.menu span{
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.menu h3{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.menu h3:hover{
+    color: #E26333;
+}
+#open{
+    font-size: 40px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+} 
+
+/* home section */
+#home{
+    width: 100%;
+    height:100vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+}
+#home .layer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(219, 37, 43, 0.5);
+}
+#home .layer h1,h6{
+Font-size: 60px;
+Font-weight: 500;
+Line-height: 66px;
+color: rgb(255, 255, 255);
+}
+/* singers section */
+#singers .singer-content{
+    margin: 90px auto;
+    background-color: #CCCCCC;
+    width: 50%;
+    text-align: center;
+}
+#singers .singer-content h2{
+    background-color:#E68285;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 0px;
+}
+#singers .singer-content p{
+    display: none;
+}
+
+/* timer section */
+#count-down{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+
+}
+#count-down .layer{
+    width: 100%;
+    background-color:rgba(219, 37, 43, 0.5);
+    padding: 50px 0px;
+}
+.time{
+    border: 1px solid white;
+    color: white;
+    
+}
+/* section join us */
+#join-us h4{
+Font-size: 35px;
+Font-weight: 700;
+color: rgb(68, 68, 68);
+}
+.custom-color{
+    color: #D62E33;
+}
+.info-icons i{
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    margin-right:10px;
+    
+}
+.info-icons i:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: none;
+    /* i know it's excatly the same :) */
+}
