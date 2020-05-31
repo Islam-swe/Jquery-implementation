@@ -1,5 +1,5 @@
 # Jquery-implementation
-First Jquery Assignment
+
 
 first function to slid down every paragraph and close it 
 
