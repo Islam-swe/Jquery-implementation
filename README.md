@@ -10,3 +10,5 @@ function to open the side slider and close it
 scroll the window smoothly to the section selected
 
 function to count the number of characters remaining in textarea
+
+puplished online 6/2/2020 
